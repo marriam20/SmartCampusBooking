@@ -22,7 +22,7 @@ public class AuthenticationWindow extends JFrame implements ActionListener {
         userField = new JTextField();
         add(userField);
 
-        // Row 2: Password
+        // Password
         add(new JLabel("Password:"));
         passField = new JPasswordField();
         add(passField);
